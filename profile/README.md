@@ -1,35 +1,58 @@
 # QI Data Lab
 
-**Research software for trustworthy, machine-readable quality infrastructure**
+**Open research tools for trustworthy, machine-readable quality infrastructure.**
 
-[**Explore our website**](https://qi-data-lab.github.io/) · [**Browse repositories**](https://github.com/orgs/QI-Data-Lab/repositories) · [QI-Digital at BAM](https://bam.de/en/topics/digital-materials-research/qi-digital) · [QI-Digital platform](https://www.qi-digital.de/)
+[**Website**](https://qi-data-lab.github.io/) · [**All repositories**](https://github.com/orgs/QI-Data-Lab/repositories) · [**QI-Digital at BAM**](https://bam.de/en/topics/digital-materials-research/qi-digital) · [QI-Digital platform](https://www.qi-digital.de/)
 
-We develop and explore open research tools for a digital **quality infrastructure (QI)** in the context of **BAM** (Bundesanstalt für Materialforschung und -prüfung) and the German **QI-Digital** initiative.
+## Who we are
 
-Our goal is to help measurements, certificates, standards, and other technical evidence move beyond static documents: information should be **machine-readable, interoperable, traceable, and verifiable** across organizations and applications.
+QI Data Lab develops research software, data models and demonstrators for digital **quality infrastructure (QI)** in the context of the **Bundesanstalt für Materialforschung und -prüfung (BAM)** and Germany's **QI-Digital** initiative.
 
-## What we work on
+Quality infrastructure connects measurements, testing, standards, conformity assessment and accreditation. We explore how the information behind those activities can move beyond static documents to become **machine-readable, traceable, interoperable and verifiable**. The aim is to let quality evidence retain its meaning and trust context as it moves between people, organizations and software systems.
 
-- **Machine-readable quality documents:** digital reference material documents, structured results, schemas, validation, and semantics.
-- **Verifiable trust:** credentials, issuer authority, trust chains, status, scope, and evidence-based verification.
-- **Interoperability and data ecosystems:** Asset Administration Shells, Quality-X, data spaces, and digital product passports.
-- **Evidence-grounded AI:** technical-document extraction, provenance-aware retrieval, and human review of AI-supported results.
+## Start here: two featured projects
 
-## Explore our projects
+These are direct links to our code and tools. You do not need to visit the website first.
 
-| Project | Focus |
+| Project | What it offers | Explore |
+| --- | --- | --- |
+| **DRMD** — Digital Reference Material Document | XML schema, examples, rendering, validation and editor tooling for structured reference-material information. | [DRMD repository](https://github.com/QI-Data-Lab/DRMD) |
+| **VC4QI** — Verifiable Credentials for Quality Infrastructure | Research framework and demonstrator for examining issuer authority, credential status, trust chains and verification decisions. | [VC4QI repository](https://github.com/QI-Data-Lab/VC4QI) · [Live browser demo](https://qi-data-lab.github.io/VC4QI/demo/) |
+
+### More projects
+
+| Project | What it offers | Explore |
+| --- | --- | --- |
+| **Evidence Tracer** | Local-first workbench for exploring PDF collections, following references and locating reviewable source evidence. | [Repository](https://github.com/QI-Data-Lab/Evidence-Tracer) |
+| **LLM4QI** | Research on using large language models to extract structured reference-material information from certificate PDFs. | [Repository](https://github.com/QI-Data-Lab/LLM4QI) |
+
+These are **research prototypes and outputs, not certified production services**. Check each repository for its maturity, documentation, limitations, license and contribution guidance.
+
+## What we investigate
+
+| Research area | Questions and approaches |
 | --- | --- |
-| [**VC4QI**](https://github.com/QI-Data-Lab/VC4QI) | Verifiable Credentials for Quality Infrastructure: evaluating when digital quality evidence can be relied upon. [Try the browser demonstrator](https://qi-data-lab.github.io/VC4QI/demo/). |
-| [**DRMD**](https://github.com/QI-Data-Lab/DRMD) | Digital Reference Material Documents: XML schema, examples, validation, rendering, and authoring tools. |
-| [**Evidence Tracer**](https://github.com/QI-Data-Lab/Evidence-Tracer) | A local-first PDF research workbench for locating, reviewing, and tracing source evidence. |
-| [**LLM4QI**](https://github.com/QI-Data-Lab/LLM4QI) | LLM-assisted extraction of structured reference-material information from certificate PDFs. |
+| **Machine-readable quality documents** | How can certificates, reference-material data, units and uncertainty become structured, validated and reusable? |
+| **Verifiable credentials and trust** | How can a verifier inspect issuer authority, scope, status, provenance and supporting evidence? |
+| **Interoperability and data ecosystems** | How can quality evidence connect through Asset Administration Shells, concepts such as Quality-X and digital product passports? |
+| **Evidence-grounded AI** | How can document extraction, retrieval and AI-assisted review retain inspectable links to their sources? |
 
-These repositories contain research software, prototypes, and demonstrators—not certified production services. Consult each repository for its status, documentation, limitations, and license.
+## Where this work matters
 
-## Why digital QI matters
+Our research is motivated by quality challenges across several application contexts:
 
-Reliable quality information connects measurements, testing, standardization, conformity assessment, and accreditation. We explore how digital evidence can support use cases in materials, manufacturing, technical assets, and product lifecycles while keeping its source and meaning inspectable.
+- **Additive manufacturing:** linking process and inspection data with digital evidence of quality.
+- **Hydrogen technology and technical assets:** making sensor information, condition monitoring and documentation traceable.
+- **Materials and digital product passports:** exchanging measured material properties, technical data and quality evidence across lifecycles.
 
-**Learn more:** [QI Data Lab website](https://qi-data-lab.github.io/) · [BAM's QI-Digital activities](https://bam.de/en/topics/digital-materials-research/qi-digital) · [QI-Digital](https://www.qi-digital.de/)
+These are examples from the wider BAM and QI-Digital context; they do not imply that the lab runs every pilot in those areas.
 
-For issues or contributions, please use the relevant project's repository.
+## Explore and contribute
+
+- **Want to try something?** Start with the [VC4QI browser demo](https://qi-data-lab.github.io/VC4QI/demo/) or explore the [DRMD repository](https://github.com/QI-Data-Lab/DRMD).
+- **Want to inspect or contribute code?** Read the documentation, issues and contribution guidance in the [individual repositories](https://github.com/orgs/QI-Data-Lab/repositories).
+- **Looking for institutional context?** See [QI-Digital at BAM](https://bam.de/en/topics/digital-materials-research/qi-digital) and the [QI-Digital platform](https://www.qi-digital.de/).
+
+---
+
+This is the QI Data Lab organization profile. The [website source and maintenance instructions](https://github.com/QI-Data-Lab/qi-data-lab.github.io#readme) are kept in the website repository.
